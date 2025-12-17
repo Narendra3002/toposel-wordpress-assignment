@@ -1,0 +1,63 @@
+/*
+Theme Name: Toposel Theme
+Author: Narendra
+Version: 1.0
+*/
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.announcement {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.hero {
+    padding: 20px;
+    text-align: center;
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+    margin: 15px 0;
+}
+
+.hero a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: black;
+    color: white;
+    text-decoration: none;
+}
+
+.brands {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.brands img {
+    max-width: 70px;
+}
+
+.products {
+    display: flex;
+    gap: 15px;
+    padding: 20px;
+}
+
+.products div {
+    width: 50%;
+    text-align: center;
+}
+
+.products img {
+    max-width: 100%;
+}
